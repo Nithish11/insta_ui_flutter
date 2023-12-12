@@ -13,13 +13,13 @@ class Bottombar extends StatefulWidget {
 
 class _BottombarState extends State<Bottombar> {
   int selectedIndex = 0;
+  
   List page =[
-     profile_page(),
      home_page(),
+     profile_page(),
      search_page(),
      fav_page(),
      reel_page(),
-     
   ];
 
   @override
